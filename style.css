@@ -1,7 +1,29 @@
+body {
+	padding: 16 px;
+
+}
+a.newcolor:link {
+	color:orange;
+}
+a.newcolor:hover {color:red;}
+a:visited {
+	color:darkred;
+}
 .special{
 	color:red;
 	border: solid 5px green;
 }
 .second{
 	border: solid 5px black;
+	padding: 10px;
+	margin:25px;
+}
+.third{
+	border: solid 5px red;
+}
+.leadmessege p{
+	font-family:sans-serif;
+}
+	p:nth-child(odd){
+		font-weight:bold;
 }
